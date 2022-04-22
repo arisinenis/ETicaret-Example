@@ -7,6 +7,10 @@
 
 /* Register Form Start */
 
+.card {
+  border: none;
+}
+
 .main-head {
   font-weight: bolder;
   font-size: 1.5rem;
@@ -33,6 +37,16 @@
 img {
   width: 100%;
   height: 100%;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 /* .card {
