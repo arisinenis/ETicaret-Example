@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="register.css">
+
+    <title>Kayıt Formu</title>
+</head>
+
+<body>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Register Form Start -->
+
+    <section class="h-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card card-registration my-4">
+                        <div class="row g-0">
+                            <div class="col-xl-6 d-none d-xl-block">
+                                <img src="https://images.unsplash.com/photo-1592085198739-ffcad7f36b54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                                    alt="Sample photo" class="img-fluid"
+                                    style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card-body p-md-5 text-black">
+                                    <h3 class="mb-5 text-uppercase main-head">&nbsp;&nbsp;&nbsp;&nbsp; Toptancı /
+                                        Perakendeci Kayıt
+                                        Formu
+                                    </h3>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1m"
+                                                    class="form-control form-control-lg" placeholder="İsim" />
+                                                <!-- <label class="form-label" for="form3Example1m">First name</label> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1n"
+                                                    class="form-control form-control-lg" placeholder="Soyisim" />
+                                                <!-- <label class="form-label" for="form3Example1n">Last name</label> -->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1m1"
+                                                    class="form-control form-control-lg"
+                                                    placeholder="Kimlik Numarası" />
+                                                <!-- <label class="form-label" for="form3Example1m1">Mother's name</label> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1n1"
+                                                    class="form-control form-control-lg" placeholder="Vergi Numarası" />
+                                                <!-- <label class="form-label" for="form3Example1n1">Father's name</label> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1m1"
+                                                    class="form-control form-control-lg" placeholder="İşyeri İsmi" />
+                                                <!-- <label class="form-label" for="form3Example1m1">Mother's name</label> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1n1"
+                                                    class="form-control form-control-lg"
+                                                    placeholder="Telefon Numarası" />
+                                                <!-- <label class="form-label" for="form3Example1n1">Father's name</label> -->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example8" class="form-control form-control-lg"
+                                            placeholder="Adres" />
+                                        <!-- <label class="form-label" for="form3Example8">Address</label> -->
+                                    </div>
+
+                                    <!-- <div class="row">
+                                        <div class="col-md-6 mb-4">
+
+                                            <select class="select">
+                                                <option value="1">Ticaret Bölgesi</option>
+                                                <option value="2">Ege</option>
+                                                <option value="3">Marmara</option>
+                                                <option value="4">Akdeniz</option>
+                                                <option value="4">Karadeniz</option>
+                                                <option value="4">Doğu Anadolu</option>
+                                                <option value="4">İç Anadolu</option>
+                                                <option value="4">Güney Doğu Anadolu</option>
+
+                                            </select>
+
+                                        </div>
+                                    </div> -->
+
+                                    <div class="dropdown" style="margin-bottom: 2rem;">
+                                        <button class="btn btn-danger dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="padding: 1rem;">
+                                            Ticare Bölgesi Tercihinizi Seçiniz
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Ege</a></li>
+                                            <li><a class="dropdown-item" href="#">Marmara</a></li>
+                                            <li><a class="dropdown-item" href="#">İç Anadolu</a></li>
+                                            <li><a class="dropdown-item" href="#">Akdeniz</a></li>
+                                            <li><a class="dropdown-item" href="#">Karadeniz</a></li>
+                                            <li><a class="dropdown-item" href="#">Doğu Anadolu</a></li>
+                                            <li><a class="dropdown-item" href="#">Güney Doğu Anadolu</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example9" class="form-control form-control-lg"
+                                            placeholder="Satılacak Ürünler" />
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example90" class="form-control form-control-lg"
+                                            placeholder="Almak İstenen Ürünler" />
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example99" class="form-control form-control-lg"
+                                            placeholder="Ürünlerin Gönderileceği Bölgeler" />
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example97" class="form-control form-control-lg"
+                                            placeholder="Ürünlerin Teslim Alınacağı Bölgeler" />
+                                    </div>
+                                    <label for="text"><a href="#" class="sozlesme">Kullanıcı sözleşmesini okumak için
+                                            tıklayınız.</a></label>
+                                    <div class="d-flex justify-content-end pt-3">
+                                        <button type="button" class="btn btn-1  btn-lg">Sıfırla</button>
+                                        <button type="button" class="btn btn-2  btn-lg ms-2">Kaydet</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Form End -->
+
+
+</body>
+
+</html>

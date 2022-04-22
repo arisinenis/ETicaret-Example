@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "Times New Roman", serif;
+}
+
+h1 {
+  font-family: "Raleway", "Times New Roman", serif;
+  color: #57cc99;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.mainsection-head {
+  background-color: #57cc99;
+  margin-left: 18rem;
+  height: 4rem;
+  width: 11rem;
+  margin-bottom: 2rem;
+}
+
+.mainsection-head-bestseller {
+  background-color: #57cc99;
+  height: 4rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown-btn-navbar {
+  background-color: #22577a;
+  width: 11.1rem;
+}
+
+.navbar-collapse-bot {
+  background-color: #40916c;
+}
+
+.nav-item-bot {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navbar-btn-style {
+  background-color: #081c15;
+}
+
+/* Carousel */
+
+img {
+  width: 1487.2px;
+  height: 30rem;
+}
+
+.carousel {
+  width: 1487.2px;
+  margin-left: 16px;
+}
+
+/* Card Start */
+
+/* .card-deck {
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-left: 15px;
+  width: 1487.2px;
+}
+
+.card-deck-2 {
+  padding: 6rem;
+  margin-left: 15px;
+  width: 1487.2px;
+}
+
+.card-img-top {
+  height: 230px;
+}
+
+.card:hover {
+  background-color: #709775;
+} */
+
+.product-cards {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-bottom: 4rem;
+}
+
+/* Card End */
+
+.products-title {
+  padding: 2rem;
+  /* margin-top: 2rem; */
+  margin: auto;
+}
+
+.products-more {
+  text-decoration: none;
+  margin-left: 16rem;
+  padding: 2rem;
+  font-weight: bold;
+  color: #22577a;
+}
+
+.products-more-bestseller {
+  text-decoration: none;
+  margin-left: -1.5rem;
+  padding: 2rem;
+  font-weight: bold;
+  color: #22577a;
+}
+
+/* Partners Slider */
+
+.container-partners {
+  margin-top: 3rem;
+}
+
+.slide > img {
+  height: 100px;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide > img {
+  width: 100%;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* <!-- Main Section (Card) end --> */
+
+/* <!-- Hakkımızda Start--> */
+
+.main-container-about {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.container-about-1 {
+  margin: 1rem;
+}
+
+.container-about-2 {
+  margin: 1rem;
+}
+
+.container-about-3 {
+  margin: 1rem;
+}
+
+.about-section-title {
+  background-color: #57cc99;
+  margin-left: 18rem;
+  height: 4rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.img-div-about {
+  /* margin-bottom: 3rem; */
+}
+
+.img-div-about > img {
+  height: 300px;
+  width: 396px;
+  /* margin-top: 3rem; */
+}
+
+.text-div-about {
+  /* height: 320px;
+  width: 500px; */
+  height: 300px;
+  width: 396px;
+  border: 1px solid black;
+  padding: 2rem;
+  align-items: center;
+  /* margin-top: 6rem; */
+}
+
+.text-div-about:hover {
+  background-color: lightgray;
+}
+
+/* <!-- Hakkımızda End--> */
+
+/* deneme  */
+
+/* Card Styles */
+
+.card-sl {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image img {
+  max-height: 10rem;
+  max-width: 100%;
+  border-radius: 8px 8px 0px 0;
+}
+
+.card-action {
+  margin-top: -25px;
+  margin-right: 20px;
+  z-index: 2;
+  color: #e26d5c;
+  background: #fff;
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-action:hover {
+  color: #fff;
+  background: #e26d5c;
+}
+
+.card-heading {
+  font-size: 18px;
+  font-weight: bold;
+  background: #fff;
+  padding: 10px 15px;
+}
+
+.card-text {
+  padding: 5px 10px;
+  background: #fff;
+  font-size: 14px;
+  color: #636262;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #1f487e;
+  color: #fff;
+  border-radius: 0 0 8px 8px;
+}
+
+.card-button:hover {
+  text-decoration: none;
+  background-color: #1d3461;
+  color: #fff;
+}
+
+/* Footer Start */
+
+.footer-start {
+  margin-bottom: -4rem;
+  background-color: #092d5c;
+}
+
+/* Footer End */

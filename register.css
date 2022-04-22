@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "Times New Roman", serif;
+}
+
+/* Register Form Start */
+
+.main-head {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  background-color: #22577a;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.btn-1 {
+  background-color: gray;
+  color: white;
+}
+
+.btn-2 {
+  background-color: #22577a;
+  color: white;
+}
+
+.sozlesme {
+  text-decoration: none;
+  font-size: larger;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .card {
+  height: ;
+} */
+
+/* Register Form End */
