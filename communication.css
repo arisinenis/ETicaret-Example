@@ -58,6 +58,97 @@ h1 {
 
 /* Main Section Start */
 
+.wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-us {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-us h3,
+p {
+  color: #092d5c;
+}
+
+.address {
+  margin-top: 14px !important;
+  margin-left: 10px;
+}
+
+.address span {
+  color: #081c15;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 20px;
+}
+
+.forms {
+  padding: 20px;
+}
+
+.send-message:hover {
+  background-color: #092d5c;
+  color: white;
+  font-weight: bolder;
+}
+
+.address-section:hover {
+  background-color: lightgrey;
+}
+
+.inputs input {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #eee;
+}
+
+.inputs input:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #092d5c;
+  box-shadow: none;
+}
+
+.inputs textarea {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #eee;
+  width: 100%;
+  resize: none;
+}
+
+.inputs textarea:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #092d5c;
+  box-shadow: none;
+  resize: none;
+}
+
+.form-control {
+  padding: 0.375rem 0.25rem;
+}
+
 /* Main Section End */
 
 /* Footer Start */
@@ -65,6 +156,10 @@ h1 {
 .footer-start {
   margin-bottom: -4rem;
   background-color: #092d5c;
+}
+
+.footer-font-color {
+  color: gray;
 }
 
 /* Footer End */
