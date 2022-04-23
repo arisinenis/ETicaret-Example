@@ -11,6 +11,17 @@ h1 {
   font-weight: bolder;
   font-size: 2.5rem;
 }
+.h1-first-case {
+  background-color: #57cc99;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.main-btn {
+  display: flex;
+  margin-left: 36rem;
+}
 
 .mainsection-head {
   background-color: #57cc99;
@@ -249,10 +260,6 @@ img {
   height: 4rem;
   width: 17rem;
   margin-bottom: 2rem;
-}
-
-.img-div-about {
-  /* margin-bottom: 3rem; */
 }
 
 .img-div-about > img {

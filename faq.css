@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "Times New Roman", serif;
+}
+
+h1 {
+  font-family: "Raleway", "Times New Roman", serif;
+  color: #57cc99;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+/* Header Section Start */
+
+.faq-header {
+  font-family: "Raleway", "Times New Roman", serif;
+  color: #22577a;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.h1-first-case {
+  background-color: #57cc99;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.main-btn {
+  display: flex;
+  margin-left: 36rem;
+}
+
+.mainsection-head {
+  background-color: #57cc99;
+  margin-left: 18rem;
+  height: 4rem;
+  width: 11rem;
+  margin-bottom: 2rem;
+}
+
+.mainsection-head-bestseller {
+  background-color: #57cc99;
+  height: 4rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown-btn-navbar {
+  background-color: #22577a;
+  width: 11.1rem;
+}
+
+.navbar-collapse-bot {
+  background-color: #40916c;
+}
+
+.nav-item-bot {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navbar-btn-style {
+  background-color: #081c15;
+}
+
+/* Header Section End */
+
+/* Main Section Start (FAQ) */
+
+.accordion-item {
+  text-align: center;
+}
+
+.accordion-button {
+  text-align: left;
+  padding: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+  width: 75%;
+  border: none;
+}
+
+.accordion-button:hover {
+  background-color: white;
+}
+
+.accordion-body {
+  text-align: left;
+  margin-left: 12.5rem;
+  width: 75%;
+}
+
+/* Footer Start */
+
+.footer-start {
+  margin-bottom: -4rem;
+  background-color: #092d5c;
+}
+
+/* Footer End */

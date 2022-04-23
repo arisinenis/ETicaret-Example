@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "Times New Roman", serif;
+}
+
+h1 {
+  font-family: "Raleway", "Times New Roman", serif;
+  color: #57cc99;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.h1-first-case {
+  background-color: #57cc99;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.main-btn {
+  display: flex;
+  margin-left: 36rem;
+}
+
+.mainsection-head {
+  background-color: #57cc99;
+  margin-left: 18rem;
+  height: 4rem;
+  width: 11rem;
+  margin-bottom: 2rem;
+}
+
+.mainsection-head-bestseller {
+  background-color: #57cc99;
+  height: 4rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown-btn-navbar {
+  background-color: #22577a;
+  width: 11.1rem;
+}
+
+.navbar-collapse-bot {
+  background-color: #40916c;
+}
+
+.nav-item-bot {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navbar-btn-style {
+  background-color: #081c15;
+}
