@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "Times New Roman", serif;
+}
+
+h1 {
+  font-family: "Raleway", "Times New Roman", serif;
+  color: #57cc99;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.h1-first-case {
+  background-color: #57cc99;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.main-btn {
+  display: flex;
+  margin-left: 36rem;
+}
+
+.mainsection-head {
+  background-color: #57cc99;
+  margin-left: 18rem;
+  height: 4rem;
+  width: 11rem;
+  margin-bottom: 2rem;
+}
+
+.mainsection-head-bestseller {
+  background-color: #57cc99;
+  height: 4rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown-btn-navbar {
+  background-color: #22577a;
+  width: 11.1rem;
+}
+
+.navbar-collapse-bot {
+  background-color: #40916c;
+}
+
+.nav-item-bot {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navbar-btn-style {
+  background-color: #081c15;
+}
+
+/* Main Section Start */
+
+.about-us {
+  text-align: center;
+  color: #22577a;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.profiles {
+  width: 50%;
+  height: 100%;
+}
+
+.profile-picture img {
+  border-radius: 6rem;
+  height: 250px;
+}
+
+.profile-description {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.desc-3 {
+  text-align: center;
+}
+
+.desc-4 {
+  text-align: center;
+}
+
+.fa-brands {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.about-article-container {
+  border: 1px solid black;
+  padding: 1em;
+  margin-top: 1rem;
+  transition: 0.5s ease;
+}
+
+.about-article-container:hover {
+  box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737,
+    5px 5px #373737, 6px 6px #373737;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s ease;
+}
+
+.about-article {
+  font-size: 1.5rem;
+}
+
+/* Main Section End */
+
+/* Footer Start */
+
+.footer-start {
+  margin-bottom: -4rem;
+  background-color: #092d5c;
+}
+
+/* Footer End */
