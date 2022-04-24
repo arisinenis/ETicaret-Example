@@ -11,6 +11,22 @@ h1 {
   font-weight: bolder;
   font-size: 2.5rem;
 }
+
+.security {
+  padding: 1rem;
+  text-align: center;
+}
+
+.security-images {
+  height: 2rem;
+  width: 7rem;
+}
+
+.security-images2 {
+  height: 2rem;
+  width: 3.5rem;
+}
+
 .h1-first-case {
   background-color: #57cc99;
   color: white;

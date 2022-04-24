@@ -14,6 +14,21 @@ h1 {
 
 /* Header Section Start */
 
+.security {
+  padding: 1rem;
+  text-align: center;
+}
+
+.security-images {
+  height: 2rem;
+  width: 7rem;
+}
+
+.security-images2 {
+  height: 2rem;
+  width: 3.5rem;
+}
+
 .faq-header {
   font-family: "Raleway", "Times New Roman", serif;
   color: #22577a;

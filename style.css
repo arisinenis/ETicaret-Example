@@ -5,6 +5,21 @@
   font-family: "Raleway", "Times New Roman", serif;
 }
 
+.security {
+  padding: 1rem;
+  text-align: center;
+}
+
+.security-images {
+  height: 2rem;
+  width: 7rem;
+}
+
+.security-images2 {
+  height: 2rem;
+  width: 3.5rem;
+}
+
 h1 {
   font-family: "Raleway", "Times New Roman", serif;
   color: #57cc99;
